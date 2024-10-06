@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #E8F4F8;
+    --secondary-color: #3A6B9C;
+    --accent1-color: #9F7D58;
+    --accent2-color: #B0C9DD;
+}
+
+body, html {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: var(--primary-color);
+    width: auto;
+    
+    /* font-weight: ###; */
+}
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+    background-color: var(--secondary-color);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: var(--secondary-color)
+    /* font-weight: ###; */
+}
+
+footer a {
+    text-decoration: none;
+}

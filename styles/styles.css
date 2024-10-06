@@ -6,6 +6,12 @@
     --aside-box-shadow: 0 0 5px gray;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: steelblue;
     padding: 20px;
@@ -27,6 +33,7 @@ main img {
     border: var(--image-border);
     padding: var(--image-padding);
     box-shadow: var(--image-box-shadow);
+    float: right;
 }
 
 p {
@@ -46,6 +53,7 @@ aside {
    color: #333;
    text-align: center; 
    box-shadow: var(--aside-box-shadow);
+   position: relative;
 }
 
 aside img {
@@ -53,11 +61,29 @@ aside img {
     height: auto;
     border: var(--image-border);
     padding: var(--image-padding);
-    box-shadow: var(--image-box-shadow);
+    /* box-shadow: var(--image-box-shadow); */
+}
+
+aside h2 {
+    position: absolute;
+    color:black;
+    top: 20px;
+    left: 134px;
+
 }
 
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #6aaef6;
+    color: white;
 }
