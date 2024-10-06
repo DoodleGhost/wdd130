@@ -1,8 +1,10 @@
 :root {
-    --primary-color: #E8F4F8;
+    --primary-color: #9F7D58;
     --secondary-color: #3A6B9C;
-    --accent1-color: #9F7D58;
+    --accent1-color: #E8F4F8;
     --accent2-color: #B0C9DD;
+    --accent1-see-through: rgba(232, 244, 248, 0.9);
+    --accent2-see-through: rgba(176, 201, 221, 0.9);
 }
 
 body, html {
@@ -22,15 +24,55 @@ h1, h2, h3, h4, h5, h6 {
     /* font-weight: ###; */
 }
 
-h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
-    background-color: var(--secondary-color);
-}
 
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: var(--secondary-color)
     /* font-weight: ###; */
+}
+
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 19%;
+    left: 23.2%;
+    background-color: var(--accent2-see-through);
+    font-weight: 400;
+	/* border: 1px solid #000; */
+    width: 1000px;
+    height: 70px;
+}
+
+.hero article {
+    position: absolute;
+    opacity: 1;
+    top: 40%;
+    left: 24.5%;
+    background-color: var(--accent1-see-through);
+	/* border: 1px solid #000; */
+    padding: 5px;
+	box-shadow: 0 0 30px #111;
+    border-radius: 5px;
+}
+
+.hero article img{
+    width: 100px;
+    height: auto;
+    float: right;
+    border: 1px solid black;
+    padding: 1px;
 }
 
 footer a {
