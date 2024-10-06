@@ -78,3 +78,8 @@ body {
 footer a {
     text-decoration: none;
 }
+
+.sociallinks img{
+    width: 40px;
+    height: auto;
+}
