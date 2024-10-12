@@ -2,7 +2,7 @@
     --heading-text-color: steelblue;
     --image-border: 1px solid steelblue;
     --image-padding: 2px;
-    --image-box-shadow: 0 0 30px gray;
+    --image-box-shadow: 0 0 20px gray;
     --aside-box-shadow: 0 0 5px gray;
 }
 
@@ -40,6 +40,7 @@ main img {
     padding: var(--image-padding);
     box-shadow: var(--image-box-shadow);
     float: right;
+    background: white;
 }
 
 p {
