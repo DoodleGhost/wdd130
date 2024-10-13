@@ -28,13 +28,13 @@ header nav a {
     border: 1px solid black;
     background: var(--accent1-color);
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     width: 100px;
     text-align: center;
 }
 
 header nav a:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: 400;
     background: var(--accent2-color);
 }
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     text-align: center;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     width: auto;
     
     /* font-weight: ###; */
@@ -178,7 +178,7 @@ footer {
 }
 
 footer p {
-    color: var(--accent1-color)
+    color: #000000;
 }
 
 footer a {
